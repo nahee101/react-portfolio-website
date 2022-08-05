@@ -1,13 +1,10 @@
-import { isVisible } from "@testing-library/user-event/dist/utils";
 import { useState, useEffect } from "react"
 import { Container, Row, Col } from "react-bootstrap"
-import TrackVisibility from "react-on-screen";
-import headerImg from '../assets/img/header-img.svg'
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["web Developer", "web Designer", "UI/UX Designer"]
+    const toRotate = ["Web Developer", "Front-end"]
 
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
@@ -46,19 +43,20 @@ export const Banner = () => {
             <Container>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7} >
-                        <TrackVisibility>
-                            {({ isVisible }) =>
-                                <div className={isVisible ? "animated__animated animated__faedIn" : ""}>
-                                    <span className="tagline">Welcom to my Porfolio</span>
-                                    <h1>{`Hi I'm Seonju Park `}<span className="wrap">{text}</span></h1>
-                                    <p>blah</p>
-                                    <button onClick={() => console.log('connect')}>Let's Connetct</button>
+                        <div className={"animate__animated animate__bounceInLeft"}>
+                            <div className="banner-bx">
+                                <span className="tagline">Welcome to my Porfolio</span>
+                                <h1><span className="wrap">{text}</span></h1>
+                            </div>
 
-                                </div>}
-                        </TrackVisibility>
+                            <div>
+                                <h1>프론트엔드 개발자, 박선주입니다</h1>
+                                <p>사용자가 이용하기 쉬운 웹사이트를 개발하고 싶습니다</p>
+                                <button>더 보기</button>
+                            </div>
+                        </div>
                     </Col>
                     <Col xs={12} md={6} xl={7} >
-                        <img src={headerImg} alt="header Img" />
                     </Col>
                 </Row>
             </Container>
