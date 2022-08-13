@@ -8,11 +8,6 @@ import colorBlur01 from '../assets/img/color-blur1.svg'
 
 export const Skills = () => {
     const responsive = {
-        superLargeDesktop: {
-            // the naming can be any, depends on you.
-            breakpoint: { max: 4000, min: 3000 },
-            items: 5
-        },
         desktop: {
             breakpoint: { max: 3000, min: 1024 },
             items: 3
@@ -27,6 +22,14 @@ export const Skills = () => {
         }
     };
 
+    const mySkill = [
+        { lang: 'HTML5', img: '' },
+        { lang: 'CSS', img: '' },
+        { lang: 'JavaScript', img: '' },
+        { lang: 'React', img: '' },
+
+    ]
+
     return (
         <section className="skill" id="skills">
             <Container>
@@ -35,14 +38,14 @@ export const Skills = () => {
                         <div className="skill-bx">
                             <h2>Skills</h2>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
-                                <img src={meter1} alt="Img" />
-                                <h2>Web Development</h2>
-
-                                <img src={meter2} alt="Img" />
-                                <h2>Web Development</h2>
-
-                                <img src={meter3} alt="Img" />
-                                <h2>Web Development</h2>
+                                {
+                                    mySkill.map((m, idx) => {
+                                        <div key={idx}>
+                                            <img src={m.img} alt="이미지" />
+                                            <h2>{m.lang}</h2>
+                                        </div>
+                                    })
+                                }
                             </Carousel>
                         </div>
                     </Col>
