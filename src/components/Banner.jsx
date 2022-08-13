@@ -50,9 +50,10 @@ export const Banner = () => {
                             </div>
 
                             <div>
-                                <h1>프론트엔드 개발자, 박선주입니다</h1>
+                                <h1>프론트엔드 개발자,</h1>
+                                <h1>박선주입니다</h1>
                                 <p>사용자가 이용하기 쉽고, 모던한 웹사이트를 개발하고 싶습니다</p>
-                                <button>▼ 더 보기</button>
+                                <button><i class="bi bi-arrow-right-short"></i> 더 보기</button>
                             </div>
                         </div>
                     </Col>
