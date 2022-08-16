@@ -4,6 +4,7 @@ import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import colorBlur01 from "../assets/img/color-blur1.svg";
+
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 

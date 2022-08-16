@@ -238,7 +238,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skill-bx {
-  background: #151515;
+  background: #121212;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -248,6 +248,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill h2 {
   font-size: 45px;
   font-weight: 700;
+  margin-bottom: 45px;
 }
 
 .skill p {
@@ -256,17 +257,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   line-height: 1.5em;
   margin: 14px 0 75px 0;
-}
-
-.skill-slider {
-  width: 80%;
-  margin: 0 auto;
-  position: relative;
-}
-
-.skill-slider .item img {
-  width: 50%;
-  margin: 0 auto 15px auto;
 }
 
 .background-image {
@@ -278,19 +268,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-.project .nav.nav-pills {
+.skill .nav.nav-pills {
   width: 72%;
-  margin: 0 auto;
+  margin: auto;
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
   overflow: hidden;
 }
 
-.project .nav.nav-pills .nav-item {
+.skill .nav.nav-pills .nav-item {
   width: 50%;
 }
 
-.project .nav.nav-pills .nav-link {
+.skill .nav.nav-pills .nav-link {
   background-color: transparent;
   border-radius: 0;
   padding: 17px 0;
@@ -317,7 +307,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.3s ease-in-out;
 }
 
-.proskillject .nav.nav-pills .nav-link.active::before {
+.skill .nav.nav-pills .nav-link.active::before {
   width: 100% !important;
 }
 

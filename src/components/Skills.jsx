@@ -1,41 +1,14 @@
-import "react-multi-carousel/lib/styles.css";
-
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import colorBlur01 from '../assets/img/color-blur1.svg'
+
+import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 
 export const Skills = () => {
 
-    const projects = [
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-        },
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-        },
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-        },
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-        },
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-        },
-        {
-            title: "Business Startup",
-            description: "Design & Development",
-        },
-    ];
-
     return (
-        <section className="skill">
+        <section className="skill" id="skill">
             <Container>
                 <Row>
                     <Col>
@@ -68,8 +41,6 @@ export const Skills = () => {
                                         </div>}
                                 </TrackVisibility>
                             </Col>
-
-
                         </div>
                     </Col>
                 </Row>
