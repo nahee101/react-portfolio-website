@@ -41,8 +41,9 @@ export const NavBar = () => {
                         <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onActiveLink('projects')} >Projects</Nav.Link>
                     </Nav>
 
-                    <div className="navbar-btn-box">
+                    <div className="navbar-btn-bx">
                         <a type="button" href="https://github.com/nahee101" target="_blank">
+                            <i class="bi bi-arrow-right-short"></i>
                             GitHub 바로가기
                         </a>
                     </div>
