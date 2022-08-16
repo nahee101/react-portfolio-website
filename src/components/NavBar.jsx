@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import logo from '../assets/img/logo.svg'
-import navIcon1 from '../assets/img/nav-icon1.svg'
 
 export const NavBar = () => {
 
@@ -42,7 +41,11 @@ export const NavBar = () => {
                         <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onActiveLink('projects')} >Projects</Nav.Link>
                     </Nav>
 
-                    <a href="https://github.com/nahee101" class="btn btn-outline-secondary" role="button" data-bs-toggle="button">GitHub 바로 가기</a>
+                    <div className="navbar-btn-box">
+                        <a type="button" href="https://github.com/nahee101" target="_blank">
+                            GitHub 바로가기
+                        </a>
+                    </div>
                 </Navbar.Collapse>
             </Container>
         </Navbar >

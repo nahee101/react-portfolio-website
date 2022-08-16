@@ -45,7 +45,7 @@ export const Banner = () => {
                     <Col xs={12} md={6} xl={7} >
                         <div className={"animate__animated animate__bounceInLeft"}>
                             <div className="banner-bx">
-                                <span className="tagline">Welcome to my Porfolio</span>
+                                <span className="tagline">Welcome to my Portfolio</span>
                                 <h1><span className="wrap">{text}</span></h1>
                             </div>
 
