@@ -8,7 +8,7 @@ import TrackVisibility from 'react-on-screen';
 export const Skills = () => {
 
     return (
-        <section className="skill" id="skill">
+        <section className="skill" id="skills">
             <Container>
                 <Row>
                     <Col>
@@ -29,12 +29,74 @@ export const Skills = () => {
                                                 </Nav>
                                                 <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                                                     <Tab.Pane eventKey="first">
-                                                        <div>
+                                                        <div className="skill-description">
+                                                            <article >
+                                                                <h4><i className="bi bi-patch-check-fill"></i></h4>
+                                                                <div className="skill-lang-bx">
+                                                                    <h4>HTML</h4>
+                                                                </div>
+                                                            </article>
+
+                                                            <article>
+                                                                <h4><i className="bi bi-patch-check-fill"></i></h4>
+                                                                <div className="skill-lang-bx">
+                                                                    <h4>CSS</h4>
+                                                                </div>
+                                                            </article>
+
+                                                            <article>
+                                                                <h4><i className="bi bi-patch-check-fill"></i></h4>
+                                                                <div className="skill-lang-bx">
+                                                                    <h4>JavaScript</h4>
+                                                                </div>
+                                                            </article>
+
+                                                            <article>
+                                                                <h4><i className="bi bi-patch-check-fill"></i></h4>
+                                                                <div className="skill-lang-bx">
+                                                                    <h4>React</h4>
+                                                                </div>
+                                                            </article>
+
+                                                            <article>
+                                                                <h4><i className="bi bi-patch-check-fill"></i></h4>
+                                                                <div className="skill-lang-bx">
+                                                                    <h4>Vue</h4>
+                                                                </div>
+                                                            </article>
+
+                                                            <article>
+                                                                <h4><i className="bi bi-patch-check-fill"></i></h4>
+                                                                <div className="skill-lang-bx">
+                                                                    <h4>Firebase</h4>
+                                                                </div>
+                                                            </article>
 
                                                         </div>
                                                     </Tab.Pane>
                                                     <Tab.Pane eventKey="second">
-                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                                                        <div className="skill-description">
+                                                            <article>
+                                                                <h4><i className="bi bi-patch-check-fill"></i></h4>
+                                                                <div className="skill-lang-bx">
+                                                                    <h4>교육기관</h4>
+                                                                    <p><strong>그린컴퓨터아카데미</strong> <br />
+                                                                        [디지털컨버전스] 프로그레시브 웹앱 프론트엔드 개발 실무자 양성과정 A-1 <br />
+                                                                        - 2022.01 ~ 2022.07</p>
+                                                                </div>
+                                                            </article>
+
+                                                            <article>
+                                                                <h4><i className="bi bi-patch-check-fill"></i></h4>
+                                                                <div className="skill-lang-bx">
+                                                                    <h4>자격증</h4>
+                                                                    <p>
+                                                                        정보처리기사 필기 <br />
+                                                                        - 2022.03
+                                                                    </p>
+                                                                </div>
+                                                            </article>
+                                                        </div>
                                                     </Tab.Pane>
                                                 </Tab.Content>
                                             </Tab.Container>

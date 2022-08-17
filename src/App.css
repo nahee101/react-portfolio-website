@@ -259,6 +259,28 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 14px 0 75px 0;
 }
 
+.skill-description {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 2rem
+}
+
+.skill article {
+  display: flex;
+}
+
+.skill-lang-bx {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.skill i {
+  margin-right: 18px;
+}
+
 .background-image {
   top: 36px;
   bottom: 40px;
