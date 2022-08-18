@@ -94,6 +94,11 @@ export const Skills = () => {
                                                                         정보처리기사 필기 <br />
                                                                         - 2022.03
                                                                     </p>
+                                                                    <p>
+                                                                        컴퓨터활용능력2급 <br />
+                                                                        - 2018.08
+                                                                    </p>
+
                                                                 </div>
                                                             </article>
                                                         </div>

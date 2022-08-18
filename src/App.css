@@ -269,6 +269,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .skill article {
   display: flex;
+  padding: 0 8px;
 }
 
 .skill-lang-bx {
