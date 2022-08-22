@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import logo from '../assets/img/logo.svg'
 
 export const NavBar = () => {
 
@@ -28,9 +27,6 @@ export const NavBar = () => {
     return (
         <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
             <Container>
-                <Navbar.Brand href="#main">
-                    <img src={logo} alt="logo" />
-                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav">
                     <span className="navbar-toggler-icon"></span>
                 </Navbar.Toggle>
@@ -43,7 +39,7 @@ export const NavBar = () => {
 
                     <div className="navbar-btn-bx">
                         <a type="button" href="https://github.com/nahee101" target="_blank">
-                            <i class="bi bi-arrow-right-short"></i>
+                            <i className="bi bi-arrow-right-short"></i>
                             GitHub 바로가기
                         </a>
                     </div>
