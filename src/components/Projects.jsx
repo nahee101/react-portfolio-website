@@ -16,6 +16,7 @@ export const Projects = () => {
             subtitle: "리액트/파이어베이스/협업",
             description: "업사이클링 정보 공유 커뮤니티",
             imgUrl: projImg1,
+            url: 'https://nahee101.github.io/upcyclingTown_build/'
         },
         {
             title: "개인 포트폴리오 사이트",
