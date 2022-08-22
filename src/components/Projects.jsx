@@ -12,13 +12,15 @@ export const Projects = () => {
 
     const projects = [
         {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: ":Uptown",
+            subtitle: "리액트/파이어베이스/협업",
+            description: "업사이클링 정보 공유 커뮤니티",
             imgUrl: projImg1,
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "개인 포트폴리오 사이트",
+            subtitle: "리액트/부트스트랩",
+            description: "개인 포트폴리오 소개 사이트",
             imgUrl: projImg2,
         },
         {
@@ -52,8 +54,6 @@ export const Projects = () => {
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                                     <h2>Projects</h2>
-                                    <p>
-                                    </p>
                                     <Row>
                                         {
                                             projects.map((project, index) => {
