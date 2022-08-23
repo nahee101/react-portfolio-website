@@ -16,7 +16,7 @@ export const Projects = () => {
             subtitle: "리액트/파이어베이스/협업",
             description: "업사이클링 정보 공유 커뮤니티",
             imgUrl: projImg1,
-            url: 'https://nahee101.github.io/upcyclingTown_build/'
+            url: 'https://nahee101.github.io/upcyclingTown_build'
         },
         {
             title: "개인 포트폴리오 사이트",
@@ -25,9 +25,11 @@ export const Projects = () => {
             imgUrl: projImg2,
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "암호화폐 정보 사이트",
+            subtitle: "리액트, rapidAPI",
+            description: "암호화폐 뉴스, 24hr 중 가격 소개 사이트",
             imgUrl: projImg3,
+            url: 'https://nahee101.github.io/crypto_app_build'
         }
     ];
 
